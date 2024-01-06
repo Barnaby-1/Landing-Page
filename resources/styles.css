@@ -118,6 +118,9 @@ main {
     margin-top: 30px;
 }
 
+
+/* random information section */
+
 .random-information {
     display: flex;
     flex-direction: column;
@@ -151,6 +154,38 @@ main {
     width: 100px;
     border: solid #3882F6 3px;
     border-radius: 10px;
+}
+
+
+/* quote */
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-bottom: 25px;
+    padding: 50px 50px;
+    height: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 85%;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote .name {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    align-self: flex-end;
 }
 
 
